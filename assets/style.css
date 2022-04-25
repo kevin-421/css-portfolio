@@ -1,0 +1,9 @@
+* {
+    text-align: center;
+    color: green;
+}
+
+header {
+    padding: 20px 35px;
+    border-color: blueviolet;
+}
