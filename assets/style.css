@@ -83,3 +83,14 @@ body {
     height: 100%;
     width: 600px;
 }
+
+/* Skills */
+
+.icons img {
+    height: 100%;
+    width: 155px;
+}
+.icons li {
+    padding-left: 285px;
+    display: inline;
+}
