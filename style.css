@@ -173,4 +173,8 @@ body {
     .email {
         margin-top: -10px;
     }
+    .Project1 img {
+        height: auto;
+        width: 400px;
+    }
 }
