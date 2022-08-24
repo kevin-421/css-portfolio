@@ -81,11 +81,22 @@ body {
 /* Projects */
 .project-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .Project1 img {
     height: auto;
     width: 800px;
+    border-style: solid;
+    border-color: black;
+}
+.Project2 img {
+    height: auto;
+    width: 800px;
+    margin-top: 50px;
+    border-style: solid;
+    border-color: black;
 }
 
 /* Skills */
@@ -147,6 +158,10 @@ body {
         height: auto;
         width: 700px;
     }
+    .Project2 img {
+        height: auto;
+        width: 700px;
+    }
     .email {
         margin-top: -10px;
     }
@@ -155,6 +170,10 @@ body {
 /* Media query for tablets and smaller */
 @media screen and (max-width: 768px) {
     .Project1 img {
+        height: auto;
+        width: 600px;
+    }
+    .Project2 img {
         height: auto;
         width: 600px;
     }
@@ -174,6 +193,10 @@ body {
         margin-top: -10px;
     }
     .Project1 img {
+        height: auto;
+        width: 400px;
+    }
+    .Project2 img {
         height: auto;
         width: 400px;
     }
