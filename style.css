@@ -98,6 +98,13 @@ body {
     border-style: solid;
     border-color: black;
 }
+.Project3 img {
+    height: auto;
+    width: 800px;
+    margin-top: 50px;
+    border-style: solid;
+    border-color: black;
+}
 
 /* Skills */
 .icon-container1 ul {
@@ -156,16 +163,26 @@ body {
     }  
     .Project1 img {
         height: auto;
-        width: 700px;
+        width: 900px;
     }
     .Project2 img {
         height: auto;
-        width: 700px;
+        width: 900px;
+    }
+    .Project3 img {
+        height: auto;
+        width: 900px;
     }
     .email {
         margin-top: -10px;
     }
+    .github img {
+        margin-top: 20px;
     }
+    .linkedin img {
+        margin-top: 30px;
+    }
+}
 
 /* Media query for tablets and smaller */
 @media screen and (max-width: 768px) {
@@ -177,8 +194,15 @@ body {
         height: auto;
         width: 600px;
     }
+    .Project3 img {
+        height: auto;
+        width: 600px;
+    }
     .email {
         margin-top: -10px;
+    }
+    * {
+        margin: 0;
     }
 }
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
@@ -188,16 +212,26 @@ body {
         flex-direction: column;
         flex-wrap: wrap;
         align-content: center;
+        margin-top: 10px;
     }
+    .icons img {
+        padding-top: 30px;
+    }
+    
     .email {
         margin-top: -10px;
     }
     .Project1 img {
         height: auto;
-        width: 400px;
+        width: 350px;
     }
     .Project2 img {
         height: auto;
-        width: 400px;
+        width: 350px;
     }
+    .Project3 img {
+        height: auto;
+        width: 350px;
+    }
+    
 }
